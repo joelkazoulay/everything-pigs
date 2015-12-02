@@ -1,0 +1,17 @@
+{
+  "name": "everything-pigs",
+  "version": "1.0.0",
+  "description": "an app that only involves pigs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pigs"
+  ],
+  "author": "joelkazoulay@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.13.3"
+  }
+}

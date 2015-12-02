@@ -1,0 +1,24 @@
+{
+  "name": "everything-pigs",
+  "description": "an app that only involves pigs",
+  "main": "index.js",
+  "authors": [
+    "joelkazoulay@gmail.com"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "pigs"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

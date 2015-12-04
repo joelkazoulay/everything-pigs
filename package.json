@@ -4,7 +4,8 @@
   "description": "an app that only involves pigs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tsc": "tsc -p src -w",
+    "start": "live-server --open=src"
   },
   "keywords": [
     "pigs"
@@ -14,6 +15,23 @@
   "devDependencies": {
     "accepts": "^1.3.0",
     "compression": "^1.6.0",
-    "express": "^4.13.3"
-  }
+    "express": "^4.13.3",
+    "live-server": "^0.8.2",
+    "typescript": "^1.7.3"
+  },
+  "dependencies": {
+    "accepts": "^1.3.0",
+    "angular2": "2.0.0-alpha.44",
+    "compression": "^1.6.0",
+    "express": "^4.13.3",
+    "systemjs": "0.19.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelkazoulay/everything-pigs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joelkazoulay/everything-pigs/issues"
+  },
+  "homepage": "https://github.com/joelkazoulay/everything-pigs#readme"
 }

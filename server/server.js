@@ -10,6 +10,8 @@ app.use(compression());
 
 app.use(express.static(__dirname + '/../src', { maxAge: oneDay }));
 
+app.use('/node_modules/', express.static(__dirname + '/../node_modules'));
+
 var server = app.listen(5678, function () {
   var host = server.address().address;
   var port = server.address().port;
